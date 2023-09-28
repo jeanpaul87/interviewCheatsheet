@@ -46,6 +46,13 @@ Arrays.sort(arr);
 Arrays.fill(arr, -1);           // initialize all array elements with value -1
 public void helper(int[] nums);
 helper(new int[]{1, 2});        // initialize array in method
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.length; i++) {
+  System.out.println(cars[i]);
+}
+for (String i : cars) {
+  System.out.println(i);
+}
 
 /********************** HashMap (TreeMap), HashSet (TreeSet)***********************/
 HashMap<Character, Integer> map = new HashMap<Character, Integer>();
